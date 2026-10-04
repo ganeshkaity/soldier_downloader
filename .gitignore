@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+!packaging/*.spec
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.venv_cache/
+
+# Local database & logs
+logs/*.log
+*.db
+*.sqlite3
+
+# Local secrets & cookies
+# Note: Keep placeholder or private
+# cookies.txt
+
+# PyInstaller
+*.manifest
+*.exe
+
+# IDE & OS files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
